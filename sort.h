@@ -28,7 +28,7 @@ void quick_sort(int *array, size_t size);
 
 /* Helper functions */
 void quickerSort(int *array, size_t size, int lo, int hi);
-int partition(int *array, size_t size, int lo, int hi);
+int truncate(int *array, size_t size, int lo, int hi);
 void swapInts(int *a, int *b);
 void swap(int *ptr_a, int *ptr_b);
 
